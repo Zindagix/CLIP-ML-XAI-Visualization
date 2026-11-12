@@ -8,7 +8,7 @@ The explanation views are fully controllable. HTML, CSS, and JS are all independ
 
 The target caption is one of ten candidates. These consist of the five reference captions of the image plus one caption from each of the five nearest images. The first five are positives, the last five are hard negatives.
 
-The semantic map is built with Streamlit and Plotly. Grad-CAM and FovEx are two extra tabs in the same HTML page written for this project. One document holds both models, and a single hover on a grid cell swaps the image, the small image and the text in both panels at once. FovEx also separates three states, an ordinary cell, an intermediate fixation and the final fixation.
+The semantic map is built with Streamlit and Plotly. Grad-CAM and FovEx are two extra tabs in the same HTML page, implemented additionally for this project. One document holds both models, and a single hover on a grid cell swaps the image, the small image and the text in both panels at once. FovEx also separates three states, an ordinary cell, an intermediate fixation and the final fixation.
 
 ## Semantic map
 
