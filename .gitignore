@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+/data/
+/checkpoints/
+/cache/
+/Visualization/viz_assets/
