@@ -41,7 +41,7 @@ COCO_DIR = ROOT / "data" / "coco_val2017"
 IMG_DIR = COCO_DIR / "val2017"
 ANN_DIR = COCO_DIR / "annotations"
 CACHE_DIR = ROOT / "cache"
-CKPT = ROOT / "checkpoints" / "final.pt"
+CKPT = ROOT / "checkpoints" / "coco_best.pt"
 ASSET_DIR = VIZ_DIR / "viz_assets"
 
 
